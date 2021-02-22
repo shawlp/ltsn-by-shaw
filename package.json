@@ -1,9 +1,9 @@
 {
   "name": "ltsn-by-shaw",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CommandLine Tool for Node LTS",
   "main": "index.js",
-  "scripts": {
+  "bin": {
     "ltsn": "bin/ltsn"
   },
   "repository": {
@@ -24,6 +24,7 @@
     "axios": "^0.21.1",
     "cli-color": "^2.0.0",
     "cli-table": "^0.3.5",
-    "compare-versions": "^3.6.0"
+    "compare-versions": "^3.6.0",
+    "terminal-link": "^2.1.1"
   }
 }
