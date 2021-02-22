@@ -1,0 +1,29 @@
+{
+  "name": "ltsn-by-shaw",
+  "version": "1.0.0",
+  "description": "CommandLine Tool for Node LTS",
+  "main": "index.js",
+  "scripts": {
+    "ltsn": "bin/ltsn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawlp/ltsn-by-shaw.git"
+  },
+  "keywords": [
+    "Node",
+    "LTS"
+  ],
+  "author": "shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawlp/ltsn-by-shaw/issues"
+  },
+  "homepage": "https://github.com/shawlp/ltsn-by-shaw#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cli-color": "^2.0.0",
+    "cli-table": "^0.3.5",
+    "compare-versions": "^3.6.0"
+  }
+}
